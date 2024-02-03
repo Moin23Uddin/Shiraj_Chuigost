@@ -11,19 +11,19 @@
 <body>
 
 
-    <div class="top w-full  sticky top-0 z-50   bg-gray-900">
+    <div class="top w-full  sticky top-0 z-40   bg-gray-900">
         <div class="navbar bg-gray-900 h-[93px] ">
             <div class="list  h-[93px] flex justify-center items-center ">
-                <div class="moin md:hidden sticky z-52 block image mx-auto w-[112px] h-[64px]">
+                <div class="moin md:hidden sticky z-50  block image ml-[35px] w-[90px] h-[55px]">
                     <img src="/images/chuilogo.webp" alt="">
 
                 </div>
 
                 <ul class="flex justify-start items-center mx-auto gap-5 h-1/2 font-serif text-slate-200 text-1xl ">
-                   
-                   
 
-                  
+
+
+
                     <li
                         class=" hidden cursor-pointer md:block   hover:text-orange-700  hover:bg-slate-950 hover:rounded-full px-4  py-3">
                         Home
@@ -66,76 +66,87 @@
     <div class="chuipicture w-full">
         <img src="/images/khabarwebp.webp" alt="">
     </div>
-    <div class="menu bg-yellow-50 w-full h-[950px] flex flex-col">
+    <div class="menu bg-yellow-50 w-full h-[950px] md:flex md:flex-col">
         <div class="our_menu_heading flex flex-col items-center justify-center text-slate-40 text-xl pt-20 ">
             <h1 class="menu_heading font-extrabold text-3xl pb-3">Our Menu</h1>
             <p>You will find all the food you like at Siraj Chuigoste</p>
 
-            <div class="menupic_Container  flex justify-center items-center h-[300px] mt-10 gap-10 w-full bg-yellow-50">
-                <div class="foodpic  cursor-pointer bg-slate-500 w-[260px] h-[270px]  rounded-[20px] bg-contain bg-fixed hover:-p-4 transition-transform transform hover:scale-95"
-                    style="background-image: url('/images/chuigost.webp') "></div>
-                <div class="foodpic cursor-pointer bg-slate-500 w-[260px] h-[270px] rounded-[20px] bg-contain bg-fixed transition-transform transform hover:scale-95 "
+            <div class="menupic_Container  flex justify-center items-center   h-[252px] mt-10 gap-10 w-full  bg-yellow-50">
+                <div class="foodpic  cursor-pointer bg-slate-500 md:w-[260px] w-[150px] md:h-[252px]  h-1/2 rounded-[20px] bg-contain bg-fixed  hover:-p-4 transition-transform transform hover:scale-95"
+                    style="background-image: url('/images/chuigost.webp')  "></div>
+                <div class="foodpic cursor-pointer bg-slate-500 md:w-[260px] md:h-[252px] w-[150px]  h-1/2 rounded-[20px] bg-contain bg-fixed transition-transform transform hover:scale-95 "
                     style="background-image: url('/images/alugost.webp') "></div>
-                <div class="foodpic cursor-pointer bg-slate-500 w-[260px] h-[270px] rounded-[20px] bg-contain bg-fixed transition-transform transform hover:scale-95"
+                <div class="foodpic cursor-pointer bg-slate-500 md:w-[260px] md:h-[252px] w-[150px] h-1/2 rounded-[20px] bg-contain bg-fixed transition-transform transform hover:scale-95"
                     style="background-image: url('/images/chuigost.webp')  "></div>
             </div>
         </div>
-        <div
-            class="menu_list flex gap-16 items-center justify-center text-slate-40 text-xl bg-yellow-50 w-full h-[500px] mt-5 ">
-            <div class="menulist_text flex flex-col gap-7 w-3/4 h-3/4 pl-[295px] bg-yellow-50">
-                <div class="menulist_maintext  flex gap-80  items-center">
-                    <h1 class="font-bold text-[32px]">
-                        1. White Rice
-                    </h1>
-                    <h1 class="font-bold text-[32px]">20</h1>
+        <div class="menu_list_container grid grid-cols-[1fr,0.25fr,1fr]  bg-yellow-50 w-[70%]   justify-items-center mx-auto mt-10">
+            <div class="menulist bg-yellow-50 w-[100%] flex flex-col gap-9 text-black font-medium text-3xl ">
+                <div class="lekha flex justify-between">
+
+                    <h1>1. White Rice</h1>
+                    <h1>20/-</h1>
+    
                 </div>
-                <div class="menulist_maintext text-center flex gap-80  items-center">
-                    <h1 class="font-bold text-[32px]">
-                        2. Beef Rezala
-                    </h1>
-                    <h1 class="font-bold text-[32px]">180</h1>
+                <div class="lekha flex justify-between ">
+
+                    <h1>2. Beef Rezala</h1>
+                    <h1>120/-</h1>
+    
                 </div>
-                <div class="menulist_maintext text-center flex gap-80  items-center">
-                    <h1 class="font-bold text-[32px]">
-                        3. Khala Buna
-                    </h1>
-                    <h1 class="font-bold text-[32px]">190</h1>
+                <div class="lekha flex justify-between ">
+
+                    <h1>3. Firni</h1>
+                    <h1>70/-</h1>
+    
                 </div>
+                <div class="lekha flex justify-between ">
+
+                    <h1>4. Borhani</h1>
+                    <h1>80/-</h1>
+    
+                </div>
+               
+
+            </div>
+            <div class="line bg-slate-400 w-[2px]" ></div>
+            <div class="menulist bg-yellow-50 w-[100%] flex flex-col gap-9 text-black font-medium text-3xl">
+                <div class="lekha flex justify-between">
+
+                    <h1>5. Kala Bhuna</h1>
+                    <h1>200/-</h1>
+    
+                </div>
+                <div class="lekha flex justify-between ">
+
+                    <h1>6. Beef Rezala</h1>
+                    <h1>120/-</h1>
+    
+                </div>
+                <div class="lekha flex justify-between ">
+
+                    <h1>7. Firni</h1>
+                    <h1>70/-</h1>
+    
+                </div>
+                <div class="lekha flex justify-between ">
+
+                    <h1>8. Jorda</h1>
+                    <h1>80/-</h1>
+    
+                </div>
+               
+
             </div>
 
 
 
-            <div class="menuline h-3/4 w-1 relative right-[30px] bg-amber-600"></div>
-            <div class="menulist_text flex flex-col gap-7  w-3/4 h-3/4 bg-yellow-50">
-                <div class="menulist_maintext text-center flex gap-80  items-center">
-                    <h1 class="font-bold text-[32px]">
-                        1. White Rice
-                    </h1>
-                    <h1 class="font-bold text-[32px]">20</h1>
-                </div>
-                <div class="menulist_maintext text-center flex gap-80  items-center">
-                    <h1 class="font-bold text-[32px]">
-                        2. Beef Rezala
-                    </h1>
-                    <h1 class="font-bold text-[32px]">180</h1>
-                </div>
-                <div class="menulist_maintext text-center flex gap-80  items-center">
-                    <h1 class="font-bold text-[32px]">
-                        3. Khala Buna
-                    </h1>
-                    <h1 class="font-bold text-[32px]">190</h1>
-                </div>
-            </div>
 
-
-
-
-
-        </div>
-        <div class="mx-auto mb-5 ml-[918px]">5% vat will be added</div>
+       </div>
+        <div class="mx-auto my-5 text-center text-black">5% vat will be added</div>
     </div>
 
-    <div class="branches mx-auto bg-slate-500">
+    <div class="branches mx-auto bg-yellow-50">
 
         <section class="text-gray-900 body-font">
             <h2 class="text-center font-bold text-[32px] py-5">Our branches</h2>
@@ -225,7 +236,7 @@
     <div class="celebrity"></div>
     <div class="footer">
 
-        <footer class="text-gray-600 body-font">
+        <footer class="text-gray-600 body-font  bg-yellow-50">
             <div
                 class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
                 <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
